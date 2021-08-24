@@ -16,3 +16,9 @@ DROP COLUMN Email
 search string on a table 
 
 SELECT * FROM TableName WHERE Name LIKE '%TextToSearch%'
+
+
+add data in an table 
+
+INSERT INTO TableName (Name,Age) 
+VALUES ('Max',30),('John',28),('Jack',31);
