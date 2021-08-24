@@ -1,0 +1,18 @@
+search all infos on sql table with student table name 
+
+SELECT *
+FROM Student
+
+add column on sql table 
+
+ALTER TABLE {TABLENAME} 
+ADD {COLUMNNAME} {TYPE}
+
+delete column on a sql table 
+
+ALTER TABLE TableName 
+DROP COLUMN Email
+
+search string on a table 
+
+SELECT * FROM TableName WHERE Name LIKE '%TextToSearch%'
