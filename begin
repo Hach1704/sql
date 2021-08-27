@@ -4,6 +4,7 @@ SELECT *
 FROM Student
 
 add column on sql table 
+for select type of column https://www.journaldev.com/16774/sql-data-types
 
 ALTER TABLE {TABLENAME} 
 ADD {COLUMNNAME} {TYPE}
